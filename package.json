@@ -4,7 +4,7 @@
   "description": "Setup xstate based e2e test automation for an app not using xstate internally. Learn various ways to automate tests for complex scenarios including api failures, etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,13 @@
   },
   "homepage": "https://github.com/jsbisht/xstate-e2e-setup#readme",
   "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "@xstate/test": "^0.5.1",
+    "jest": "^27.5.1",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^13.5.2",
     "xstate": "^4.31.0"
   }
 }
